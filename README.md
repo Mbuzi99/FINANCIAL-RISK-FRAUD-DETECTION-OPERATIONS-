@@ -72,6 +72,6 @@ The goal was to transform raw historical database transactions into actionable i
 
 ## Contact
 **Mbulelo Majola**  
-* **LinkedIn:** [://linkedin.com](https://://linkedin.com)  
+* **LinkedIn:** [://linkedin.com](www.linkedin.com/in/mbulelo-majola-5892ba391)  
 * **Email:** [mbulelomdletshe7@gmail.com](mailto:mbulelomdletshe7@gmail.com)
 
