@@ -32,7 +32,7 @@ The goal was to transform raw historical database transactions into actionable i
 
 ## Key Findings
 * The predictive engine successfully caught **762 real fraud cases** and maintained an overall data processing accuracy of **88.61%**.
-* The static rule layers generated **13,461 false alarms**, resulting in a **7.09% Customer Disruption Rate** alongside a **7.55% Fraud Detection Rate**.
+* The static rule layers generated **13,461 false alarms**, resulting in a **6.97% Customer Disruption Rate** alongside a **7.39% Fraud Detection Rate**.
 * **9,326 fraud cases** bypassed the rules entirely because fraud perfectly mimics clean row-level transaction footprints across demographic data.
 * Transactions executed via **desktop environments** and physical **Debit/Credit Cards** dominated unauthorized ledger actions.
 * The city of **Haridwar (Uttarakhand)** and the **Midnight window (00:00 to 04:59)** were isolated as the highest-risk geo-temporal spikes.
@@ -48,11 +48,13 @@ The goal was to transform raw historical database transactions into actionable i
 * Establish a permanent **Continuous Integration (CI) logic audit** by scheduling the SQL confusion matrix query weekly to monitor shifting fraud patterns.
 
 ## Dashboard Preview
-* `[Screenshot 1]` - Executive Risk Command Center
-* `[Screenshot 2]` - Predictive Engine Performance Audit
+* Executive Risk Command Center
+ <img width="1146" height="774" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/013c8675-db00-4ef8-8cc9-b37edf3efc4c" />
+* Predictive Engine Performance Audit
+  <img width="1139" height="783" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/cd97ed91-081d-4761-a33e-1fe5b35c789a" />
+
 
 ## Files Included
-* **Back-End T-SQL View Script** (`.sql`)
 * **SQL Diagnostic Exploratory Script** (`.sql`)
 * **Power BI Dashboard File** (`.pbix`)
 * **Financial Risk & Fraud Detection Operations Report** (`.docx`)
